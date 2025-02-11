@@ -36,21 +36,33 @@
     .heart1 {
       position: absolute;
       height: 100px;
-      top: 90px;
-      right: 180px;
+      top: -10px;
+      right: 195px;
+      z-index: 2;
     }
     .heart2 {
       position: absolute;
       height: 200px;
-      top: -30px;
+      top: 400px;
       right: 20px;
+      z-index: 2;
     }
-    .heart3 {
+     .heart3 {
       position: absolute;
       height: 400px;
       bottom: -20px;
       left: -30px;
-      z-index= 1;
+      z-index: 1;
+    } 
+    .prayer {
+      position: absolute;
+      height: 330px;
+      width: 190px;
+      object-fit: cover;
+      /* border-radius: 20%; */
+      top: 30px;
+      right: 30px;
+      z-index: 1;
     }
   </style>
 </head>
@@ -61,6 +73,7 @@
       <img src="heart.gif" class ="heart1">
       <img src="heart.gif" class ="heart2">
       <img src="heart.gif" class ="heart3">
+      <img src= "weaver.png" class= "prayer">
   </div>
     
 </body>
